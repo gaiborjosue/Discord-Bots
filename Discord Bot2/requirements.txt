@@ -1,0 +1,7 @@
+discord
+wikipedia
+pandas
+youtube-search
+pyowm
+dhooks
+googlesearch-python
