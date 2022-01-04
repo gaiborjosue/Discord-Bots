@@ -15,7 +15,7 @@ try:
 except ImportError:
     print("No module with that name exists")
 
-id = "887141482174222357"
+id = "ENTER ID"
 
 client = commands.Bot(command_prefix='!')
 
@@ -202,4 +202,4 @@ async def deudas(ctx, *, arg):
 
     await ctx.send(embed=embedh)
     
-client.run('ODg3MTQxNDgyMTc0MjIyMzU3.YT_04w.e00B-XAQdgyn829y27a_GoZXt5A')
+client.run('ENTER TOKEN')
