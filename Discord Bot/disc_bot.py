@@ -3,7 +3,7 @@ from discord.ext import commands
 from urllib import parse, request
 import re
 
-id  = '756340942151352500'
+id  = 'ENTER ID'
 
 client = commands.Bot(command_prefix='!')
 
@@ -109,4 +109,4 @@ async def video(ctx, *, search):
     search_results = re.findall('href=\"\\/watch\\?v=(\S{11})', html_content.read().decode())
     print(search_results)
 
-client.run('NzU2NDg3NjU0MzQxODY5NTk5.X2SkBw.MIvHCupjn954sT120EvIwRCpRIk')
+client.run('ENTER TOKEN')
